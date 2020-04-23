@@ -1,0 +1,310 @@
+<!-- https://developer.mozilla.org/en-US/docs/Web/SVG -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+	<link href="scrolling-nav.css" rel="stylesheet">
+ <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" id="mainNav" style="background-color: #B0B0B0!important;",>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"  >Homelessness</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+          	<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#intro" style="color: black!important;">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#percentage" style="color: black!important;">Homeless per Capita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#total" style="color: black!important;">Total Homeless</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#veteran" style="color: black!important;"> Homeless Veterans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#unsheltered" style="color: black!important;">Unsheltered Homeless</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#unemployment" style="color: black!important;">Unemployment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#funding" style="color: black!important;">Fundings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#us" style="color: black!important;">About Us</a>
+            </li>
+       
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<body>
+
+	<header id="showcase" style="background-image: url('homeless0.jpg');">
+
+		
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 style="font-size:100px; color:white; text-shadow: 0px 0px 0px #FFFFFF, 2px 2px 0px rgba(0,0,0,0.99) ">Homelessness in the U.S.
+					</h1>
+					<br><br>
+
+					
+
+				</div>
+			</div>
+
+		</div>
+
+
+	</header>
+
+	<section id="intro">
+	<div class="section-container section-half-background-image-container">
+
+		<div class="image-column" style="background-image: url('image.png')"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-6 text-column">
+					<h2 class="text-center">Solving Homlessness: Why is this important?</h2>
+					<h4>On any given night in the United States, more than half a million people experience homelessness.</h4>
+					<ul>
+						<li><b>Ending homelessness improves lives:</b></li>
+						<p> Being able to move back into a safe and secure home will help people improve their mental and physical health. People get to reconnect with employment, health services, education and community. </p>
+
+						<li><b>Ending homelessness strengthens the health and wellbeing of our communities:</b></li>
+						<p> Appropriate housing keeps people safe and healthy when making the transition from healthcare and mental health facilities.</p>
+						<li><b>Ending homelessness reduces costs:</b></li>
+						<p>People become healthier and more stable in a safe home, which results in declining costs of frequent admissions to health and crisis services.</p>
+
+					</ul>
+					<h3>We seek to apply visualization techniques to the study of the U.S. homeless population.</h3>
+					<ul>
+						<li>The intent of our work is to provide inspirational data insights to help solve the issue of homelessness to other citizens, organizations, and county/state officials.</li>
+						<li>Understanding where homeless people are located can help address the problem. It is important to identify the places experiencing the greatest challenges.</li>
+
+				<li> Data on homelessness are based on annual point-in-time (PIT) counts conducted by Continuums of Care (CoCs) to estimate the number of people experiencing homelessness. This data is provided by <a href="https://www.hudexchange.info/programs/hdx/pit-hic/"> HUD Exchange (Annual Point-in-Time Count).</a></li>
+
+						<li> Rates of homelessness are a comparison of point-in-time counts to state population data from the Census Bureau’s Population Estimates Program, accessed via <a href="https://data.census.gov/cedsci/">US Census.</a></li>     
+					<li> The state unemployment rate data are from <a href="https://www.bls.gov/web/laus/laumstrk.htm"> the Bureau of Labor Statistics  </a> and the federal funding data can be found from <a href="https://www.hhs.gov/programs/social-services/homelessness/resources/federal-links/index.html"> the Department of Health & Human Services</a>.
+						
+					</li>
+					</ul>        
+					<h3>Our target audience/users</h3>
+					<p>Our work is intended to serve as a reference for policymakers, journalists, advocates, and the public on trends in homelessness, unemployment and funding informstion, and living conditions at the national, state, and Continuum of Care (CoC) levels.</p>
+			
+					<ul>
+						<ul> <p4>Photo Credits: <a href="https://www.governmentnews.com.au/policy-inaction-leading-to-homelessness-rise/"> © Government News</a>, <a href="https://www.alamy.com/a-young-woman-giving-money-to-homeless-beggar-man-sitting-outdoors-in-city-image229288496.html">© Alamy </a></p4>
+					</ul>	
+					</div>
+				
+
+		</div>
+
+		</section>
+		<section id="percentage">
+
+			<div class="section-container">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-12 section-container-spacer">
+							<h2 class="text-center" style="color: #6F4E37;">Percentage of Homeless Per Capita</h2>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div>
+							<p class="">The percentage of homeless per capita shows us the proportion of the homeless population compared to the total state population. This graph can tell us, for example, for every 1000 people in California, there are around 3 homeless people.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			<div class="section-half-background-image-container col-md-12">
+
+            <div class='container tableauPlaceholder' id='viz1587600248385' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vs&#47;Vs_Total&#47;Map&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Vs_Total&#47;Map' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vs&#47;Vs_Total&#47;Map&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1587600248385');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					</div>
+		</section>
+
+
+		<section id="total">
+
+			<div class="section-container">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-12 section-container-spacer">
+							<h2 class="text-center" style="color: #6F4E37;">Percentage Homeless per Capita vs Total Homeless</h2>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div>
+							<p class="">The first graph plots the relationship between homeless per capita versus total homeless population of each state. The second graph plots the percentage changes of homeless per capita from year to year. This will show us the trend of the homeless population percentage over time. You can specify the State and Year on the right hand side to see different combinations.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="section-half-background-image-container col-md-12">
+
+						<div class='container tableauPlaceholder' id='viz1587600697035' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vs&#47;Vs_Total&#47;Vs_Total&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Vs_Total&#47;Vs_Total' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vs&#47;Vs_Total&#47;Vs_Total&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1587600697035');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+		
+			</div>
+		</section>
+
+
+
+		<section id="veteran">
+
+			<div class="section-container">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-12 section-container-spacer">
+							<h2 class="text-center" style="color: #6F4E37;">Homeless of Veterans</h2>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div>
+							<p class="">Veteran homeless is a big issue our government needs to solve. This graph will tell us how the veteran homeless are distributed in each state and their shelter situation in both state and county levels. This provides the government to find out which state or county is most in need. You can specify the State and Year on the right hand side or click on a specific row in the graph to see more detail information.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="section-half-background-image-container col-md-12">
+
+
+					<div class='container tableauPlaceholder' id='viz1587600838389' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vs&#47;Vs_Total&#47;Veterans&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Vs_Total&#47;Veterans' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vs&#47;Vs_Total&#47;Veterans&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1587600838389');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+				</div>
+
+			</section>
+
+			<section id="unsheltered">
+
+				<div class="section-container">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-md-12 section-container-spacer">
+								<h2 class="text-center" style="color: #6F4E37;">Unsheltered Homeless</h2>
+							</div>
+						</div>
+						<div class="row text-center">
+							<div>
+								<p class="">It is important to look at the conditions that those experiencing homelessness are living in, especially unsheltered homeless. The purpose of this dashboard is to  show the highest concentration of unsheltered homeless people by Continuum of Care (CoCs). Being able to see how the percentage of homeless changes over year will also help us to focus on the area that people are still struggling with unsheltered living condition. The Continuum of Care(CoC) map is only for the 48 continential states, not including Alaska, Hawaii, and the District of Columbia.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="section-half-background-image-container col-md-12">
+
+						<div class='container tableauPlaceholder' id='viz1587601192598' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;Unsheltered_15866618270350&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Unsheltered_15866618270350&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;Unsheltered_15866618270350&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1587601192598');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					</div>
+				</section>
+
+				<section id="unemployment">
+					<div class="section-container">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-md-12 section-container-spacer">
+									<h2 class="text-center" style="color: #6F4E37;">Unemployment and Homelessness</h2>
+								</div>
+							</div>
+							<div class="row text-center">
+								<div>
+									<p class="">We think it is also interesting to look at the relationship between unemployment and homelessness. With this dashboard, we hope to provide the information in homelessness relative to the unemployment by state level. Does employment have an impact on homelessness? </p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="section-half-background-image-container col-md-12">
+
+							<div class='container tableauPlaceholder' id='viz1587600926800' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;Unemployment_15866614112750&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Unemployment_15866614112750&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;Unemployment_15866614112750&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1587600926800');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+						</div>
+					</section>
+
+					<section id="funding">
+
+						<div class="section-container">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12 col-md-12 section-container-spacer">
+										<h2 class="text-center" style="color: #6F4E37;">Funding</h2>
+									</div>
+								</div>
+								<div class="row text-center">
+									<div>
+										<p class="">Each year, the United States Department of Housing and Urban Development (HUD) awards Homeless Assistance Grants to communities that administer housing and services at the local level. Fundings per homeless reflects how much a homeless person might be able to get assisted by the state. This dashboard provides a closer look at the available fundings and hopefully helps to adjust the homeless funding distribution.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="section-half-background-image-container col-md-12">
+
+
+								<div class='container tableauPlaceholder' id='viz1587600970779' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fu&#47;funding_15866619944660&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='funding_15866619944660&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fu&#47;funding_15866619944660&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1587600970779');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+							</div>
+
+						</section >
+						<section id="us">
+						<div class="section-container">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12 col-md-12 section-container-spacer">
+										<h2 class="text-center" style="color: #6F4E37;">Who we are</h2>
+									</div>
+								</div>
+								<div class="row">
+									<div>
+										<p class="text-center">We are a team of UC Berkeley Master of Information and
+										Data Science (MIDS 2020) students who are passionate in creating insightful data visuallizations that can help solve social and business problems!</p>
+									</div>
+								</div>
+								<div class="row">
+									<br><br><br>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-md-6">
+										<h3 class="text-center">Annabelle Lee</h3>
+										<p class = "text-center"> annabelle_lee@ischool.berkeley.edu</p>
+										<p class = "text-center"><a href="https://www.linkedin.com/in/the-data-whisperer/"> https://www.linkedin.com/in/the-data-whisperer/</a></p>
+									</div>
+									<div class="col-xs-12 col-md-6">
+										<h3 class="text-center">Kylie Vo</h3>
+										<p class = "text-center"> kylie.vo@ischool.berkeley.edu</p>
+										<p class = "text-center"><a href="https://www.linkedin.com/in/kylievo/"> https://www.linkedin.com/in/kylievo/</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						</section>
+
+					</body>
+
+
+					</html>
+
