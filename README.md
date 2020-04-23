@@ -1,4 +1,4 @@
-# W209-Final-Project---Homelessness-in-the-U.S.
+# W209 Final Project
 ## Visualizing Homelessness in the United States 2010-2016
 
 [MIDS W209 Data Visualization, ](https://www.ischool.berkeley.edu/courses/datasci/209)
