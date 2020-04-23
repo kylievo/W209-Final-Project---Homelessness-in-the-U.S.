@@ -43,3 +43,8 @@ Our visualization includes six main parts:
 
 * Setting up a command-line http server : https://www.npmjs.com/package/http-server
 * Setting up Sublime Text 3 estlint prettier on Windows 10 for front end development, provided by our professor,<a href="https://johnguerra.co/"> John Alexis Guerra Gómez</a>: https://www.youtube.com/watch?v=Q5bbPEAOwYs&feature=youtu.be
+
+<b>Future Edits</b><br>
+
+* Add more recent data
+* Further breakdown of each type homeless (based on ages, races, etc)
