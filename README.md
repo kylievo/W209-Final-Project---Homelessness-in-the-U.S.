@@ -29,7 +29,7 @@ Our visualization includes six main parts:
 
 <b>Project Website</b><br>
 
-* The project website can be found at <a href="http://people.ischool.berkeley.edu/" target="_blank">http://people.ischool.berkeley.edu/</a>
+* The project website can be found at <a href="http://people.ischool.berkeley.edu/~kylie.vo/homelessness/main.html" target="_blank">http://people.ischool.berkeley.edu/~kylie.vo/homelessness/main.html</a>
 * Demonstration video: https://www.youtube.com/watch?v=pkY5JQjLvw0&feature=youtu.be
 
 <b>Set up</b><br>
