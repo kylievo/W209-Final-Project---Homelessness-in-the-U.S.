@@ -47,4 +47,4 @@ Our visualization includes six main parts:
 <b>Future Edits</b><br>
 
 * Add more recent data
-* Further breakdown of each type homeless (based on ages, races, etc)
+* Further breakdown of each type of homelessness (based on ages, races, etc)
