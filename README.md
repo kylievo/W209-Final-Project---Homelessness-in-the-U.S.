@@ -22,7 +22,7 @@ Our visualization includes six main parts:
 
 <b>The data </b><br>
 
-* Data on homelessness are based on annual point-in-time (PIT) counts conducted by Continuums of Care (CoCs) to estimate the number of people experiencing homelessness. This data is provided by the HUD Exchange ( https://www.hudexchange.info/programs/hdx/pit-hic/).
+* Data on homelessness are based on annual point-in-time (PIT) counts conducted by Continuums of Care (CoCs) to estimate the number of people experiencing homelessness. This data is provided by the HUD Exchange ( https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/).
 * Rates of homelessness are a comparison of point-in-time counts to state population data from the Census Bureau’s Population Estimates Program, accessed via the US Cencus (https://data.census.gov/cedsci/).    
 * The state unemployment rate data are from the website of the Bureau of Labor Statistics (https://www.bls.gov/web/laus/laumstrk.htm").
 * The federal funding data is provided from the Department of Health & Human Services (https://www.hhs.gov/programs/social-services/homelessness/resources/federal-links/index.html).
